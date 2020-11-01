@@ -1,4 +1,7 @@
-class PersegiPanjang():
+from geometri.bangun_ruang import BangunRuang
+
+
+class PersegiPanjang(BangunRuang):
 
     def __init__(self, p, l):
         #fungsi yg pertama kali dipanggil saat object diciptakan

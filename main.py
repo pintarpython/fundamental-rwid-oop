@@ -1,3 +1,4 @@
+from geometri.bangun_ruang import BangunRuang
 from geometri.persegipanjang import PersegiPanjang
 from geometri.segitiga import Segitiga
 
@@ -13,6 +14,8 @@ print(f'\n{s1.info()}')
 print(f'luas segitiga = {s1.hitung_luas()}')
 print(f'Keliling segitiga = {s1.keliling_segitiga()}')
 
-print('\noke')
+b1 = BangunRuang()
+print(f'\n{b1.info()}')
+print(b1.hitung_luas())
 
 
