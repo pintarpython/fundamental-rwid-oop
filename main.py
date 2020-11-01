@@ -13,6 +13,6 @@ print(f'\n{s1.info()}')
 print(f'luas segitiga = {s1.hitung_luas()}')
 print(f'Keliling segitiga = {s1.keliling_segitiga()}')
 
-print('\nselesai')
+print('\noke')
 
 
