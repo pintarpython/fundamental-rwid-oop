@@ -1,3 +1,4 @@
+import math
 class Segitiga():
 
     def __init__(self, alas, tinggi):
@@ -9,5 +10,9 @@ class Segitiga():
 
     def hitung_luas(self):
         return self.alas * self.tinggi/2
+
+    def keliling_segitiga(self):
+        return self.alas + self.tinggi + math.sqrt((1/2*self.alas)**2 + (self.tinggi)**2)
+
 
 

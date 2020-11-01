@@ -11,3 +11,6 @@ class PersegiPanjang():
     def hitung_luas(self):
         return self.p * self.l
 
+    def keliling_persegipanjang(self):
+        return self.p*2 + self.l*2
+
